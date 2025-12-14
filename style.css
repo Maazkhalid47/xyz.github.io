@@ -10,6 +10,32 @@ body {
   background: #fff;
   line-height: 1.6;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.hero {
+  background: 
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("Assets/heroBackground.jpg") center/cover no-repeat;
+  color: #fff;
+  padding: 120px 0;
+}
+
+.hero-content h2 {
+  font-size: 42px;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  max-width: 600px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
 
 .container {
   max-width: 1000px;
@@ -83,6 +109,34 @@ h3 {
 .contact {
   background: #f9f9f9;
   border-radius: 8px;
+}
+.hero {
+  background: 
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("Assets/heroBackground.jpg") center/cover no-repeat;
+  color: #fff;
+  padding: 120px 0;
+}
+
+.hero-content h2 {
+  font-size: 42px;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  max-width: 600px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+.card ul {
+  margin: 10px 0;
+  padding-left: 18px;
+}
+
+.card ul li {
+  font-size: 14px;
+  color: #555;
 }
 
 footer {
